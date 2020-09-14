@@ -1,0 +1,65 @@
+.card-header{
+    background-color:#40B0de;
+}
+.contant{
+    float: right;
+}
+.comment{
+    background-color: #f4f9fc;
+    border-radius: 25px;
+    margin-top: 5;
+        padding: 10;
+}
+.comment_img{
+    width: 80px;
+    height: 80px;
+    border:2px solid #40B0de;
+    border-radius: 30%;
+    float: left;
+}
+.comment-text{
+    float: left;
+}
+.your_comment_img{
+    width: 80px;
+    height: 80px;
+    border:2px solid #40B0de;
+    border-radius: 30%;
+}
+.text1{
+    width: 60%;
+     display: inline;
+}
+.btn1{
+    display: inline;
+}
+.container{
+    margin-left:;
+}
+.h3-title{
+    display: inline;
+}
+.div-btn{
+    display: inline;
+    float: right;
+}
+.div-btn .active{
+    color: #40B0de;
+    cursor: pointer;
+    
+}
+.bt{
+    color:black;
+    background: #fff;
+    border: 1px solid #fff;
+}
+.bt:hover{
+    color: #40B0de
+}
+
+.your_comm{
+    display: none;
+}
+.conscolor{
+    background:#40B0de;
+}

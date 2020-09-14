@@ -1,0 +1,83 @@
+body{
+    margin-top: 50px;
+}
+
+/*      nav bar     */
+
+#nav12{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px #01010154;
+    /*height: 90px;*/
+    font-weight: 500;
+    zoom: 85%;
+
+}
+.container-nav
+{
+    width: 500% !important;
+}
+.ul-nav
+{
+    width: 80% !important;
+    font-size: 16px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #62BEE4;
+}
+ .navbar-light .navbar-nav .active  .nav-link{
+    color: #62BEE4;
+}
+.sign-in{
+    color: white;
+    border: 1px solid #40B0DE;
+    border-radius: 20px;
+    width: 100px;
+    background: #62BEE4;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+
+
+}
+.sign-inlang{
+    color: white;
+    border: 1px solid #40B0DE;
+    border-radius: 20px;
+    background: #62BEE4;
+    text-align: center;
+
+
+}
+.sign-in:hover{
+    background: transparent;
+
+}
+.person_name{
+    font-size: 13px;
+    width: 100%;
+}
+/* profile-button */
+
+.profile-btn{
+    width: 55px;
+    height: 42px;
+
+}
+.profile-btn-lang{
+    width: 55px;
+    height: 42px;
+
+}
+.profile-div-lang .profile-menu{
+   min-width: 80px !important;
+}
+.profile-img{
+    width: 100%;
+    height: 100%;
+}
+.profile-div:hover .profile-menu{
+    display: block;
+}
+.profile-menu a:hover{
+    color: #62BEE4;
+}

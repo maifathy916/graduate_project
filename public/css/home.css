@@ -1,0 +1,544 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    zoom: 75%;
+}
+.hide{
+    display: none;
+}
+
+#nav12{
+    zoom: 100%;
+}
+
+.rtl-el{
+    direction: rtl;
+}
+/*****     firstPage  ******/
+
+#firstPage{
+    margin-top: 0;
+
+}
+.hed1{
+    margin: 10px;
+    padding: 10px;
+    font-size: 50px;
+    font-weight: 500;
+    display: flex;
+}
+/*****     carousel  ******/
+.carousel-caption-edit{
+
+    bottom: 28%;
+    left: 17%;
+}
+     /* make overlay */
+#firstPage .carousel .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+#carousel-caption-paragraph-lg{
+    font-weight: 700;
+    font-size: 60px;
+    text-align: left;
+    font-family: arial;
+}
+#carousel-caption-paragraph-sm{
+    font-weight: 300;
+    font-size: 55px;
+}
+
+
+/*   why choose us  */
+
+.choose-img{
+    min-width: 500px;
+    width: 100%;
+    min-height: 350px;
+    height: 100%;
+    border-radius: 15px;
+}
+.choose-img2{
+    height: 50px;
+    width: 50px;
+    margin: 15;
+}
+#choose-div{
+    text-align: center;
+    height: 200px;
+    margin: 5px 15px 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: left;
+    border-radius: 25px;
+}
+
+/***     Ask doctor     ***/
+#ask_doctor{
+    padding-top: 130px;
+    direction: ltr;
+}
+.ask_back{
+    height: 450px;
+    background-image: url("background-1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.ask_overlay{
+    background: rgba(0,0,0,.3);
+    height: 450px;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.ask_front{
+    background-image: url("denta-1.png");
+    position: relative;
+    height: 600px;
+    width: 400px;
+    top: -149px;
+    left: 0;
+}
+.ask_back_detail{
+    position: relative;
+    height: 250px;
+    width: 650px;
+    top: 110px;
+    left: 10%;
+    color: white;
+    font-size: 64px;
+    text-align: center;
+}
+.ask_btn{
+    border-radius: 25px;
+    padding: 4px 41px;
+    margin-top: 10px;
+    font-size: 24px;
+}
+.ask_btn:hover{
+    background: transparent;
+    border: 2px solid white;
+}
+
+
+
+/*    Dental Services    */
+.dental_services{
+    position: relative;
+    z-index: 1;
+}
+.dental_service_div{
+    direction: ltr;
+}
+.service-detial{
+    position: absolute;
+    height: 100%;
+    width: 90%;
+    top: 0;
+    left: 2.5%;
+    z-index: 2;
+    display: none;
+    margin: 0 33px;
+    padding: 0 25px;
+    overflow: auto;
+    background: #f4f9fc;
+    box-shadow: 0px 0px 45px blue;
+    border-radius: 25px;
+
+}
+.service-detial-img{
+    padding: 20px;
+    text-align: center;
+}
+.detial-img{
+    width: 550px;
+    height: 450px;
+    border-radius: 25px;
+}
+.service-detial-exit{
+    position: absolute;
+    top: 21px;
+    right: 25px;
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #fff;
+    padding: 2px 9px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+#service-img{
+    padding: 0px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.service-div{
+    text-align: left;
+    padding: 10px;
+
+}
+
+/***   feature   ****/
+.feature{
+    background: #40B0DE;
+    color: white;
+    text-align: center;
+    padding: 35px 0px 30px;
+}
+.feature img{
+    padding: 15px;
+    border: 2px solid;
+    margin-bottom: 10px;
+
+}
+.feature p{
+    font-weight: 700;
+    line-height: 19px;
+    font-size: 16px
+}
+
+
+/*****  Our Doctors  ******/
+.doctors{
+    background-color: #F4F9FC;
+    border-radius: 20px;
+    padding: 15px;
+    border: 10px solid white;
+}
+.doctors_img{
+    float: left;
+    border-radius: 10px;
+        width: 40%;
+        height: 35%;
+}
+.doctors_detail{
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+.doctors_detail h1{
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+/*    foooter       */
+.footer{
+    background:#182028 ;
+    margin-top: 20px;
+    position: relative;
+}
+
+
+.footer-btn{
+    border: 2px solid white;
+    font-size: 20px;
+    border-radius: 40px;
+    width: 200px;
+}
+
+.footerlinks{
+    margin: 20px auto !important;
+    text-align: center;
+}
+.footerlinks li{
+    display: inline-block;
+}
+.footerlinks li a{
+    color: #e2e3e5;
+}
+.footerlinks li a:hover{
+    color:#40B0DE ;
+}
+.footer-btn:hover{
+    color: white;
+    background: transparent;
+}
+.footer p{
+    color: white;
+    line-height: 4;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+.arrow-top{
+    position: fixed;
+    bottom: 70px;
+    right: 40px;
+    background: #40B0DE;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 50% ;
+     display: none;
+}
+.arrow-top:hover{
+
+    background: #182020;
+
+}
+.arrow-top .fa-chevron-up{
+    color: #ffffff;
+    font-size: 30px;
+}
+/*----------------------for anamiation------------------------*/
+.containerhide{
+    overflow: hidden;
+}
+.container-edit{
+    overflow: visible;
+}
+
+.chosimg-div{
+    top: -70%;
+}
+.service-div:nth-of-type(2) ,.service-div:nth-of-type(5){
+    left: -370px;
+}
+.service-div:nth-of-type(4) ,.service-div:nth-of-type(7){
+    right: -370px;
+}
+.service-div:nth-of-type(3) ,.service-div:nth-of-type(6){
+    top: -460px;
+}
+
+.feature-div{
+    bottom: -170px;
+}
+
+.ourdoc-div:nth-of-type(1) ,.ourdoc-div:nth-of-type(2){
+    left: -100%;
+}
+.ourdoc-div:nth-of-type(3) ,.ourdoc-div:nth-of-type(4){
+    right: -100%;
+}
+.showmore-doctor{
+    margin: 20px auto;
+}
+.showmore_btn{
+    border-radius: 25px;
+    padding: 4px 41px;
+    margin-top: 10px;
+    font-size: 24px;
+   
+}
+.stting{
+    position: absolute;
+    bottom: 20;
+    right: 20;
+}
+
+.stting i{
+   font-size: 25px;
+}
+.stting-content{
+    position: absolute;
+    background-color: #40B0DE;
+    bottom: -60;
+    right: -60px;
+    z-index: 555;
+      display: none;
+      padding: 12px;
+      border-radius: 5px;  
+}
+.stting-content a , .stting-content p{
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #f4f9fc;
+    margin-top: 8px;
+    cursor: pointer;
+
+}
+
+
+
+/********update ********/
+textarea.form-control{
+    padding: 8px;
+    overflow: hidden;
+
+    resize: none;
+}
+/* register div*/
+
+.divmid ,.divmid-login,.divmid-doctor{
+    overflow: hidden;
+
+    margin:-70% auto;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    box-shadow:3px 3px 3px 3px #a9aaac;
+    padding: 20px;
+    position: relative;
+    background: rgba(244,249,252,0);
+    background-color: #fff;
+    z-index: 1000;
+    width: 35%;
+}
+/* back button */
+.bt-back ,.bt-back-regist,.bt-back-doctor{
+    position: absolute;
+    top: 4%;
+    right: 6%;
+    cursor: pointer;
+    color: #007BFF;
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+.bt-back{
+    top: 8%;
+}
+/*************/
+.divmid h2{
+ text-align: center;
+    color: #007bff;
+
+}
+
+.hide{
+    display: none;
+}
+/*                                            edit 31-12-2019   */
+/* logo login */
+.login-logo{
+    padding-top: 5%;
+    text-align: center;
+    color: #007BFF;
+    font-family: cursive;
+}
+.login-logo img{
+    width: 75px;
+}
+/* animate email char*/
+.email-div ,.password-div
+,.fname-div,.lname-div,.email-div1,.password-div1,.password-div1-confirm,.phone-div
+,.descripe-div{
+    position: relative;
+    padding-top: 32px;
+
+}
+.email-input ,.password-input
+,.fname-input,.lname-input,.email-input1,.password-input1,.password-input1-confirm,.phone-input
+,.select-input,.date-input,.descripe-input
+{
+    border: none;
+    border-radius: 0px;
+    border-bottom: 2px solid #007BFF;
+    background: none;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: transparent;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: 0 0 0 0 transparent;
+    border-bottom: 2px solid #007BFF;
+}
+.email-char ,.password-char
+,.fname-char,.lname-char ,.email-char1,.password-char1,.password-char1-confirm ,.phone-char
+,.password-char1,.password-char1-confirm,.descripe-char{
+    position: absolute;
+    top: 39px;
+    left: 16px;
+    color: #7A8489;
+}
+
+/* password icon show hide*/
+.show-password,.hide-password
+,.show-password1,.hide-password1,.show-password2,.hide-password2{
+    color: #007BFF;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+/*                                            end edit 31-12-2019   */
+.bt-sign-up{
+
+    display: inline;
+    cursor: pointer;
+}
+.bt-sign-up:hover{
+    background: none;
+    text-decoration: underline;
+    color: #007BFF;
+}
+
+/*****     profile picture upload  */
+
+
+.pro-picture{
+    text-align: center;
+    padding-top: 5%;
+}
+.pro-picture button{
+    margin: 10px;
+}
+.pro-picture img{
+    width: 200px;
+    height: 190px;;
+}
+.uploadfile{
+    visibility: hidden;
+}
+/* choose kind register  */                                     /* delete   */
+
+.chose-kind{
+    border: 2px solid blue;
+    border-radius: 25px;
+    box-shadow: 0 0 20px blue;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 15%;
+    width: 800px;
+    color: blue;
+    background: rgba(244,249,252,0.6);
+    position: relative;
+}
+
+.chose-div{
+    float: left;
+    margin-left: 55px;
+    /*width: 55px;*/
+    text-align: center;
+}
+.chose-div img{
+    cursor: pointer;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+}
+.chose-div img:hover{
+    border: 2px solid;
+    border-radius: 200px;
+}
+
+
+
+/******************/
+.showmoreservice{
+    position: absolute;
+    cursor: pointer;
+    bottom:-3;
+    right: 10;
+    color: #007BFF;
+    font-size: 18px;
+    font-weight: 800;
+
+}
+.showmoreservice:hover{
+   color: #000;
+    
+}

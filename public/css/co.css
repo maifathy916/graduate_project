@@ -1,0 +1,273 @@
+body{
+   /* background-image: url("chose-back.jpg");
+    background-size: cover;
+    background-attachment: fixed;*/
+
+    padding-top: 1%;
+
+}
+.hide{
+    display: none;
+}
+.container{
+    width: 60%;
+}
+textarea.form-control{
+    padding: 8px;
+    overflow: hidden;
+    resize: none;
+}
+/*  the main comment*/
+.add-post{
+    border: 1px solid #CED4DA;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.postbody{
+    line-height: 30px;
+    overflow: hidden;
+}
+.upload-img-bt{
+    float: left;
+
+}
+.add-post-submit{
+
+    float: right;
+}
+
+        /*comment and replay div*/
+.comment-replay{
+    border: 1px solid #CED4DA;
+    padding: 30px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    
+}
+        /*  person image profile  */
+.person_comment_img ,.comment_img{
+    width: 80px;
+    height: 80px;
+
+}
+
+
+/* like cooment  **/
+.interaction,.interaction-replay{
+    display: flex;
+    text-align: center;
+    border-top: 1px solid #CED4DA;
+    border-bottom: 1px solid #CED4DA;
+    padding: 3px;
+}
+.interaction div,.interaction-replay div{
+    
+    flex: 1 0;
+    cursor: pointer;
+    padding: 5px;
+    color: #007bff;
+}
+.interaction div:hover ,.interaction-replay div:hover{
+    background: #007bff;
+    color: white;
+}
+
+
+/*   make replay for cooment   */
+.make-replayied{
+    padding: 10px;
+    position: relative;
+}
+.image ,.replay-image{
+    width: 150px;
+    height: 130px;
+
+}
+.make-replay-uploadimg-div{
+    position: absolute;
+    bottom: 28px;
+    right: 53px;
+}
+.make-replayied-send{
+    position: absolute;
+    bottom: 28px;
+    right: 10px;
+}
+.btn-primary{
+    color: #e2e3e5;
+    background-color: #007bf0;
+}
+
+/*  anwser  */
+
+.comments{
+    background: #f4f9fc;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px 0px;
+}
+  /**/
+  /*.editspan, .deletespan{
+       position: absolute;
+       right: 20px;
+       top: 20px;
+       background-color: #007bff;
+       width: 80px;
+       color: #fff;
+       text-align: center;
+       padding:5px ;
+       border-radius: 10px;
+       cursor: pointer;
+  }
+  .deletespan{
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    background-color: #04bb32;
+    width: 80px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+.deletespan:hover{
+    
+    color: #fff;
+    text-decoration: none;
+    
+}*/
+ /**/
+ .showpostforedit , .showpostfordelete ,.showcommentforedit, .showcommentfordelete{
+    background-color: #007bff;
+     opacity: 1;
+    display: none;
+    position: fixed;
+    color: #fff;
+    margin:50px auto;
+    height: 300px;
+    width: 50%;
+    left: 3%;
+    right: 3%;
+    top: 10%;
+    border-radius: 10px;
+    text-align: center;
+ }
+ .showpostforedit #cancle, .showpostfordelete #cancle , .showcommentforedit #cancle, .showcommentfordelete #cancle{ 
+    position: absolute;
+    color: #fff;
+      right: 2%;
+       top: 0;
+       cursor: pointer;
+        font-size: 40px;
+        font-weight: bolder;
+
+}
+
+.showpostforedit #postbodytextarea , .showcommentforedit #commentbodytextarea{
+    width: 80%;
+    height: 120px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+       color: #000;
+}
+.showpostforedit .edit-post-submit, .showcommentforedit .edit-comment-submit {
+    float:right;
+    margin-right:10%;
+  background-color: #fff;
+  color: #000;
+}
+
+.showpostfordelete h3 ,.showcommentfordelete h3{
+   margin-top: 30px;
+}
+ .showpostfordelete .delete-post-submit ,.showcommentfordelete .delete-comment-submit{
+    float:right;
+    margin-right:20%;
+  background-color: #fff;
+  color: #000;
+}
+
+.showpostfordelete .cancle-post-submit{
+    float:right;
+    margin-right:10%;
+  background-color: #fff;
+  color: #000;
+}
+.stting ,.sttingcomment{
+    position: absolute;
+    top: 12px;
+    right: 2px;
+}
+.sttingcomment{
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+.stting i{
+   font-size: 20px;
+}
+.sttingcomment i{
+    font-size: 20;
+}
+.stting-content ,.stting-content-comment{
+    position: absolute;
+    background-color: #40B0DE;
+    top: -40;
+    right: -70px;
+    z-index: 555;
+      display: none;
+      padding: 12px;
+      border-radius: 5px;  
+}
+
+.stting-content a , .stting-content p ,.stting-content-comment a , .stting-content-comment p{
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #f4f9fc;
+    margin-top: 8px;
+    cursor: pointer;
+
+}
+
+.showimg{
+    position: absolute;
+    height: 70%;
+    width: 50%;
+    top: 20%;
+    left: 25%;
+    z-index: 2;
+    padding: 0 25px;
+    display: none;
+    overflow: auto;
+    background: #f4f9fc;
+    box-shadow: 0px 0px 45px rgb(155, 155, 247);
+    border-radius: 10px;
+    
+
+}
+
+.showimg img{
+    margin-top: 15%;
+    margin-left: 15%;
+   width: 70%;
+   height: 60%;
+
+}
+.showimg #cancle{ 
+    position: absolute;
+    color: #000;
+      right: 2%;
+       top: 0;
+       cursor: pointer;
+        font-size: 40px;
+        font-weight: bolder;
+
+}
+.datepost{
+    font-size: 12px;
+}
+
